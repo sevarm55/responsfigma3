@@ -1,0 +1,160 @@
+@media screen and (max-width: 1261px) {
+   .sec1_contentbox{
+      flex-direction: column;
+      padding: 0;
+      background-image: none;
+   }
+   .sec1_left{
+      padding: 0;
+      width: 100%;
+   }
+   .sec1_left_info1{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .sec1_left_title{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .sec1_left_title p{
+      text-align: center;
+   }
+   .sec1_left_info2{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .sec1_left_btn{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .sec1_right{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .sec1_giftbox{
+      flex-wrap: wrap;
+   }
+   .sec1_left{
+      padding: 40px;
+   }
+   .sec1_right{
+      padding-bottom: 20px;
+   }
+   .sec2_contentbox{
+      flex-wrap: wrap;
+   }
+}
+@media screen and (max-width: 1024px) {
+   .head_menu_content{
+      display: none;
+   }
+   .head_shoppingbox{
+      display: none;
+   }
+   .head_burgerbox{
+      width: 25%;
+      height: 100%;
+      border: inherit;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+   }
+   .burgerline1{
+      width: 50px;
+      height: 4px;
+      background-color: #000;
+      position: absolute;
+      transform: translateY(-10px);
+   }
+   .burgerline2{
+      width: 50px;
+      height: 4px;
+      background-color: #000;
+      position: absolute;
+   }
+   .burgerline3{
+      width: 50px;
+      height: 4px;
+      background-color: #000;
+      position: absolute;
+      transform: translateY(10px);
+   }
+   .head_inputbox input{
+      width: 200px;
+   }
+   .giftbox{
+      width: 570vw;
+   }
+   /* .sec4_reclam{
+      width: 80vw;
+   } */
+   .sec4_reclam{
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+   }
+}
+@media screen and (max-width: 768px) {
+   .head_inputbox{
+      display: none;
+   }
+   .head_logobox{
+      width: 50%;
+   }
+   .head_burgerbox{
+      width: 50%;
+      justify-content: flex-end;
+      padding-right: 20px;
+   }
+   .sec1_right img{
+      width: 90vw;
+   }
+   .giftbox{
+      width: 570vw;
+   }
+   .sec2_box1,
+   .sec2_box2{
+      background-image: none;
+   }
+   .sec2_info,
+   .sec2_title,
+   .sec2_btn{
+      padding: 0;
+   }
+   .sec2_box1,
+   .sec2_box2{
+      width: 100%;
+      height: auto;
+      padding: 50px 0px;
+   }
+   .sec2{
+      background-color: #eeeeee;
+      padding: 0;
+   }
+}
+@media screen and (max-width: 425px) {
+   .sec3_card_imgbox img{
+      width: 60vw;
+   }
+   .sec3_card_rating{
+      justify-content: center;
+   }
+   .sec3_card_buy{
+      justify-content: center;
+   }
+   .ulink2{
+      flex-wrap: wrap;
+   }
+   .sec3_card_rating{
+      flex-direction: column;
+   }
+   .sec3_card_buy{
+      flex-direction: column;
+   }
+}
